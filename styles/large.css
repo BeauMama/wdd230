@@ -5,4 +5,16 @@
 	nav ul li {
 		flex: 1 1 100%;
 	}
+
+
+    
+main {
+    display:grid;
+    grid-template-columns: 1fr 1fr;
+ }
+
+ h2 {
+	grid-column: span 2;
+}
+
 }

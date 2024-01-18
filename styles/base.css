@@ -10,7 +10,11 @@ nav{
     background: black;
     padding: 1em;
 
-  
+    
+}
+
+nav ul{
+  list-style-type: none;
 }
 html{
     display: flex;
