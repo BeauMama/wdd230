@@ -17,4 +17,9 @@ main {
 	grid-column: span 2;
 }
 
+
+#lastModified {
+	display:grid;
+}
+
 }
