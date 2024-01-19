@@ -1,16 +1,19 @@
 html{
-    display: flex;
+    display:flex;
     justify-content: center;
     align-content: center;
     align-items: center;
+    
    
     
   }
 
 header, footer {
-    background: rgb(30, 109, 122);
+    background: gray;
+    color: white;
   }
 
-footer{
-  display:inline-flex;
+h3{
+  background-color: lightgray;
+  
 }
