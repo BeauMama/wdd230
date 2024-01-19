@@ -4,16 +4,37 @@ html{
     align-content: center;
     align-items: center;
     
-   
-    
   }
 
 header, footer {
     background: gray;
     color: white;
+    text-align: center;
   }
 
 h3{
   background-color: lightgray;
   
+}
+
+main {
+  display:grid;
+ 
+}
+body{
+  font-family:'Courier New', Courier, monospace;
+  list-style: none;    
+  
+ }
+
+ ul{
+  padding-inline-start: 0px;
+  list-style: none;
+}
+
+section{
+  border: 2px solid darkgray;
+  box-sizing: border-box;
+  border-radius: 1em/1em;
+    
 }

@@ -36,12 +36,12 @@ nav ul{
 }
 
 html{
-  display: flex;
-  justify-content: center;
-  align-content: center;
-  align-items: center;
- 
-  
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+   
+    
 }
 
 ul{
