@@ -40,11 +40,11 @@ body{
 
    a:link
    {
-     color:rgb(255, 255, 255);
+     color:#0000FF;
    }
      a:visited
    {
-     color: blue;
+     color:#800080;
    }
      a:hover
    {
@@ -52,7 +52,7 @@ body{
    }
      a:active
    {
-     color:red;
+     color:#FF0000;
    }
 
 main{
