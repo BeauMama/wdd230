@@ -1,0 +1,16 @@
+html{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+   
+    
+  }
+
+header, footer {
+    background: rgb(30, 109, 122);
+  }
+
+footer{
+  display:inline-flex;
+}
