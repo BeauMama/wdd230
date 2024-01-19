@@ -10,7 +10,7 @@
     
 main {
     display:grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: flex flex;
 	column-gap: 20px;
 	
  }
