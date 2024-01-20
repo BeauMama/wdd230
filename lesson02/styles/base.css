@@ -4,13 +4,13 @@ html{
   }
 
 header, footer {
-    background: rgb(3, 42, 78);
+    background: darkblue;
     color: white;
     text-align: center;
   }
 
 h3{
-  background-color: lightgray;
+  background-color: lightcoral;
   
 }
 
@@ -35,7 +35,7 @@ section{
   border: 2px solid darkgray;
   box-sizing: border-box;
   border-radius: 1em/1em;
-  background-color: darkcyan;
+  background-color: lightblue;
  
 }
 
@@ -49,4 +49,20 @@ img {
   height: 40%;
   
 
+}
+a:link
+{
+  color:#0000FF;
+}
+  a:visited
+{
+  color:#800080;
+}
+  a:hover
+{
+  color:green;
+}
+  a:active
+{
+  color:#FF0000;
 }
