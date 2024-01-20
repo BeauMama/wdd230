@@ -1,9 +1,6 @@
 html{
     display:flex;
-    justify-content: center;
-    align-content: center;
-    align-items: center;
-    
+       
   }
 
 header, footer {
@@ -20,7 +17,8 @@ h3{
 main {
   display:grid;
   padding: 1em;
- 
+  
+   
 }
 body{
   font-family:'Courier New', Courier, monospace;
@@ -38,8 +36,7 @@ section{
   box-sizing: border-box;
   border-radius: 1em/1em;
   background-color: darkcyan;
-  
-    
+ 
 }
 
 img {
@@ -50,4 +47,6 @@ img {
   margin-right: auto;
   width: 95%;
   height: 40%;
+  
+
 }
