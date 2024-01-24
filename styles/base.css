@@ -10,27 +10,24 @@ header {
 nav{
     background: black;
     padding: 1em;
-   
+ }
 
-    all:link
-    {
+.navigation a:link {
       color:white;
     }
-      a:visited
-    {
+    
+.navigation a:visited{
       color: gray;
     }
-      a:hover
-    {
+
+.navigation a:hover{
       color:green;
     }
-      a:active
-    {
+
+.navigation a:active{
       color:#FF0000;
     }
 
-    
-}
 
 nav ul{
   display: inline;
