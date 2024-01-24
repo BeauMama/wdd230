@@ -12,11 +12,31 @@ main {
     display:grid;
     grid-template-columns: flex flex;
 	column-gap: 20px;
+	row-gap: 20px;
 	
  }
 
- h2 {
+ h2  {
 	grid-column: span 2;
+}
+
+iframe  {
+	grid-column: span 2;
+}
+
+
+/*add hamburger button*/
+#menu {
+	display: none; /* hide hamburger button */
+}
+
+.navigation {
+	flex-direction: row;
+}
+
+.navigation a {
+	display: block;
+	flex: 1 1 100%;
 }
 
 }
