@@ -5,6 +5,7 @@ html{
 
 header, footer {
     background: #000060;
+    font-family: 'Poppins', sans-serif;
     justify-content: center;
     color: #afe1f3;
     padding: 1em;
@@ -12,7 +13,7 @@ header, footer {
       }
 
 body{
-    font-family:'Courier New', Courier, monospace;
+    font-family: 'Poppins', sans-serif;
     text-align: center;
     list-style: none;         
         
@@ -28,7 +29,7 @@ section{
     border: 2px solid darkgray;
     box-sizing: border-box;
     border-radius: 1em/1em;
-    background-color: #6de8e0;
+    background-color: #6de;
     color: #020a0d;
     
     }
