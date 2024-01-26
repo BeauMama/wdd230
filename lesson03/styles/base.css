@@ -38,3 +38,11 @@ ul{
     padding-inline-start: 0px;
     list-style: none;
 } 
+
+img {
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    width:auto;
+    height: 400px;
+  }
+  
