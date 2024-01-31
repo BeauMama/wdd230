@@ -16,7 +16,7 @@
     <meta name="description"   content="WDD 230 - The Chamber of Commerce Home Page for Mandi Beauchaine." >
     <meta property="og:title" content="WVC">
     <meta property="og:type" content="website">
-    <meta property="og:image" content="https://beaumama.github.io/wdd230/chamber/chamber/images/wvc.png">
+    <meta property="og:image" content="https://beaumama.github.io/wdd230/chamber/images/wvc.png">
     <meta property="og:url" content="https://beaumama.github.io/wdd230/chamber">
     <title>Project - The Chamber of Commerce Home Page - Mandi Beauchaine</title>
 </head>
@@ -25,17 +25,56 @@
         <h1 contenteditable>West Valley City Chamber of Commerce</h1>
     </header>
 
-    <nav>
+    <button id="menu"></button>
+    <nav class="navigation">
+        <a href="#" >Home</a>
+        <a href="discover/" target="_blank" >Discover</a>
+        <a href="directory/" target="_blank" >Directory</a>
+        <a href="Join/" target="_blank" >Join</a>
+                  
+  </nav>
+  
+        <main>
+        <section class = "card">
+            <h2 contenteditable>Hero Image</h2>
+          
+        </section>
 
-    </nav>
+        <section class = "card">
+            <h2 contenteditable>Call to Action</h2>
+          
+        </section>
 
-    <main>
+        <section class = "card">
+            <h2 contenteditable>Current Events</h2>
+          
+        </section>
 
+        <section class = "card">
+            <h2 contenteditable>Weather Card</h2>
+          
+        </section>
+
+        <section class = "card">
+            <h2 contenteditable>Spotlights</h2>
+          
+        </section>
     </main>
 
     <footer>
-
+         <p>
+            West Valey City Chamber of Commerce<br>
+            Address: 3450 South 4000 West, Ste 240 West Valley City, UT 84120 |
+            Phone: 801-977-8755 
+        </p>
+        <p>
+            <var id="copyright"></var>  West Valey City Chamber of Commerce|
+             Mandi Beauchaine |
+            Project for WDD 230 |
+            <var id="lastModified"></var>               
+        </p>
     </footer>
-
+    <script src="scripts/getdates.js" defer></script> 
+    <script src="scripts/responsive_menu.js" defer></script>   
 </body>
 </html>
