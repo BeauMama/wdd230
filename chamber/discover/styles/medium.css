@@ -1,0 +1,30 @@
+@media (min-width: 577px) and (max-width: 768px){
+	main {
+		grid-template-columns: 1fr 1fr;
+        column-gap: 10px;
+        row-gap: 10px;
+	}
+
+	main section:nth-child(2) {
+		display: block;
+	}
+
+	main section:nth-child(1) {
+		grid-column: span 2;
+	}
+/*add hamburger button*/
+#menu {
+	display: none; /* hide hamburger button */
+}
+
+.navigation {
+	flex-direction: row;
+}
+
+.navigation a {
+	display: block;
+	flex: 1 1 100%;
+}
+
+
+}
