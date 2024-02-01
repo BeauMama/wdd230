@@ -3,12 +3,16 @@
 
 	main { 
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr;
+		grid-template-columns: 1fr 1fr 1fr 1fr;
 		column-gap: 10px; }
 
 /*add hamburger button*/
 #menu {
 	display: none; /* hide hamburger button */
+}
+
+main section:nth-child(1) {
+	grid-column: span 4;
 }
 
 .navigation {

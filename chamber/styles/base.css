@@ -14,6 +14,9 @@ header, footer {
     color: #afe1f3;
     justify-content: center;
     padding: 1em;
+    border: 2px solid darkgray;
+    box-sizing: border-box;
+    border-radius: 1em/1em;
    
       }
 
@@ -38,6 +41,9 @@ section{
 nav{
     background: #6de;
     padding: 1em;
+    border: 2px solid darkgray;
+    box-sizing: border-box;
+    border-radius: 1em/1em;
  }
 
 
@@ -68,7 +74,7 @@ a:hover{
 #menu {
 	font-size: 1.5rem;
 	border: 1px solid rgba(0, 0, 0, 0.3);
-	padding: 0.25rem 0.75rem;
+	padding: 0.25rem 0.25rem;
 	position: absolute;
 	top: 1rem;
 	right: 1rem;
@@ -98,4 +104,20 @@ a:hover{
 
 .open a {
 	display: block;
+}
+
+.home::before { 
+	content: "🏡";  /* just a wayfinding symbol for the user */
+}
+
+.discover::before { 
+	content: "🔍";  /* just a wayfinding symbol for the user */
+}
+
+.directory::before { 
+	content: "📘";  /* just a wayfinding symbol for the user */
+}
+
+.join::before { 
+	content: "➕";  /* just a wayfinding symbol for the user */
 }
