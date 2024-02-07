@@ -7,7 +7,7 @@ const list = document.querySelector('ul');
 button.addEventListener('click', () => {
     const myItem = input.value;
     if (myItem == "") {
-        alert("Must not be blank");
+        alert("Please enter a value.");
         return false;} 
 
     /*create a li elemen*/    
@@ -36,7 +36,7 @@ button.addEventListener('click', () => {
 
     /*send the focus to the input element*/
     input.focus();
-    
+
     /*change the input value to nothing or the empty string to clean up the interface for the user*/
     input.value = '';
 });
