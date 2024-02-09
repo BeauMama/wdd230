@@ -169,7 +169,7 @@ a:hover{
 }
 
 .spotlight {
-    background-image: url("/chamber/images/westvalleycity.jpg") ;
+    background-image: url("/wdd230/chamber/images/westvalleycity.jpg") ;
     background-size: contain;
     background-repeat:round;
     height: 200px;
