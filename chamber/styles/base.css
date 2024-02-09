@@ -3,15 +3,20 @@ html{
     justify-content: center;
     align-content: center;
     align-items: center;
-
-    
 }
 
+body{
+    background-color:beige;
+    color: #b2dff0;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    list-style: none;         
+        
+        } 
 
 header, footer {
     background: #000060;
     font-family: 'Poppins', sans-serif;
-    color: #afe1f3;
     justify-content: center;
     padding: 1em;
     border: 2px solid darkgray;
@@ -20,27 +25,26 @@ header, footer {
    
       }
 
-
-
 main {
     display:grid;
     padding: 1em;
     row-gap: 20px;    
     }
 
+
+    
 section{
     border: 2px solid darkgray;
     box-sizing: border-box;
     border-radius: 1em/1em;
-    background-color: #6de;
-    color: #020a0d;
+    background-color:#13139a;
     
-    }
+     }
   
   
 nav{
-    background: #6de;
-    padding: 1em;
+    background-color:#d1d1d7;
+    margin-top: 20px;
     border: 2px solid darkgray;
     box-sizing: border-box;
     border-radius: 1em/1em;
@@ -53,12 +57,7 @@ ul{
     list-style: none;
 }
 
-body{
-    font-family: 'Poppins', sans-serif;
-    text-align: center;
-    list-style: none;         
-        
-       }
+
 
 a:active,
 a:link,
@@ -76,7 +75,7 @@ a:hover{
 	border: 1px solid rgba(0, 0, 0, 0.3);
 	padding: 0.25rem 0.25rem;
 	position: absolute;
-	top: 1rem;
+	top: 2.75rem;
 	right: 1rem;
 }
 
@@ -131,9 +130,10 @@ a:hover{
 	cursor: pointer;
 	
 }
-@media (prefers-color-scheme: dark) {
+
 .dark-mode {
     background-color: black;
     color: white;
 }
-}
+
+
