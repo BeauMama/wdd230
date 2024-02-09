@@ -3,7 +3,7 @@ html{
     justify-content: center;
     align-content: center;
     align-items: center;
-   
+
     
 }
 
@@ -89,7 +89,8 @@ a:hover{
 }
 
 .navigation {
-	display: flex;
+	
+    display: flex;
 	flex-direction: column;
 	list-style: none;
 	
@@ -120,4 +121,19 @@ a:hover{
 
 .join::before { 
 	content: "➕";  /* just a wayfinding symbol for the user */
+}
+
+#darkmode{
+    position: absolute;
+    top: 1rem;
+	right: 1rem;
+	font-size: 1rem;
+	cursor: pointer;
+	
+}
+@media (prefers-color-scheme: dark) {
+.dark-mode {
+    background-color: black;
+    color: white;
+}
 }
