@@ -16,9 +16,11 @@ main {
 	
  }
 
- h2  {
+ h2, .hero  {
 	grid-column: span 2;
 }
+
+
 
 iframe  {
 	grid-column: span 2;

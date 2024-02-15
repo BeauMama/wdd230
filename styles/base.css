@@ -180,3 +180,32 @@ iframe {
   width:100%;
         
  }
+
+ .hero {
+	position: relative;
+	border: 1px solid rgba(0,0,0,.1);
+	height: 300px;
+}
+
+.hero img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.herolabel {
+	position: absolute;
+	margin-top: 30px;
+	margin-left: 30px;
+	background: radial-gradient(#fff, #a3a6b3);
+	border: 1px solid rgba(0,0,0,.75);
+	padding: 1.5rem;
+	box-shadow: 0 0 3rem #fff;
+	opacity: 0.75;
+}
+
+.herolabel p {
+	margin: 0;
+	font-weight: 700;
+	font-size: 1.25rem;
+}
