@@ -46,13 +46,21 @@
   </nav>
   
   <main>
-        <section class = "spotlight">
+        <section class = "card">
             <h2 contenteditable>Spotlights</h2>
+            <div class = "hero">
+                <picture>
+                    <source srcset="images/hero-small.webp" media="(max-width: 500px)">
+                    <source srcset="images/hero-medium.webp" media="(max-width: 1000px)">
+                    <img src="images/hero-large.webp" alt="table setting" width="1500" height="750">
+                </picture>
+               </div>
             
         </section>
 
         <section class = "card">
-            <h2 contenteditable>Hero Image</h2>
+            <h2 contenteditable>Spotlights</h2>
+           
           
         </section>
 
@@ -67,7 +75,13 @@
         </section>
 
         <section class = "card">
-            <h2 contenteditable>Weather Card</h2>
+            <h2 contenteditable>Weather</h2>
+            <h4 id="location"></h4>
+            <h4 id="temp"></h4>
+            <h4 id="windspeed"></h4>
+                
+                
+              </div>
           
         </section>
 
@@ -90,5 +104,6 @@
     <script src="scripts/getdates.js" defer></script> 
     <script src="scripts/responsive_menu.js" defer></script>   
     <script src="scripts/darkmode.js" defer></script> 
+    <script src = "scripts/windchill.js" defer ></script>
 </body>
 </html>
