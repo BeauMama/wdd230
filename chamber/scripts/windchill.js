@@ -25,10 +25,11 @@ function weatherBalloon( cityID ) {
 	document.getElementById('location').innerHTML =  d.name;
     document.getElementById('windspeed').innerHTML = 'Wind Speed: ' + d.wind.speed;
     if (fahrenheit <= 50 & d.wind.speed > 3)
-    {document.getElementById('windchill').innerHTML = 'Wind Chill: ' + 'N/A'; 
+    {document.getElementById('windchill').innerHTML = 'Wind Chill: ' + windChill + '&deg; F'; 
 
     }else {
-      document.getElementById('windchill').innerHTML = 'Wind Chill: ' + windChill + '&deg; F';
+        document.getElementById('windchill').innerHTML = 'Wind Chill: ' + 'N/A';
+        
     }
   
     
