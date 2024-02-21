@@ -1,0 +1,41 @@
+html{
+    display:block;
+         
+}
+
+header, footer {
+    background: #000060;
+   text-align: center;
+    color: #afe1f3;
+    padding: 1em;
+   
+      }
+
+main {
+display:grid;
+justify-content: center;
+grid-template-columns: auto;
+column-gap: 20px;
+row-gap: 20px;
+
+}
+
+
+img {
+border: 1px solid black;
+border-radius: 4px;
+padding: 5px;
+
+}
+
+.fadeIn {
+opacity: 0;
+cursor: pointer;
+background-color:black;
+transition: 0.25s all ease-in-out;
+}
+
+.fadeIn:hover,
+.fadeIn:focus {
+    opacity: 1;
+  }
