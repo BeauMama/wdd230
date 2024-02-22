@@ -217,4 +217,9 @@ img {
 
   #link:hover{
     color: lightblue;
-  }  
+  } 
+  
+  figcaption{
+    color: #13139a;
+    font-size: 20px;
+  }
