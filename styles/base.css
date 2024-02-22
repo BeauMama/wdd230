@@ -136,17 +136,19 @@ footer{
 	border: 1px solid rgba(0, 0, 0, 0.3);
 	padding: 0.25rem 0.75rem;
 	background-color: #eee;
-	position: absolute;
+  position: absolute;
 	top: 1rem;
 	right: 1rem;
 }
 
 #menu::before {
 	content: "☰";
+  user-select: none;
  }
 
 #menu.open::before {
 	content: "🔽";
+  
 }
 
 .navigation {
