@@ -190,12 +190,15 @@ a:hover{
   padding: 20px;
   font-size: 10px;
   text-align: center;
+  
 }
 
 img {
   border: 1px solid black;
   border-radius: 4px;
   padding: 5px;
+  width: 300px;
+  height: 300px;
   
   }
   
