@@ -23,8 +23,7 @@ header, footer {
     border-radius: 1em/1em;
    
       }
-
-  
+ 
 
 main {
     display:grid;
@@ -175,4 +174,39 @@ a:hover{
   border-radius: 1em/1em;
 }
 
+.grid-container {
+  display: grid;
+  gap: 50px 50px;
+  grid-template-columns: auto;
+  border: 2px solid darkgray;
+  box-sizing: border-box;
+  border-radius: 1em/1em;
+  padding: 10px;
+}
 
+.grid-item {
+  background-color:#13139a;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+
+img {
+  border: 1px solid black;
+  border-radius: 4px;
+  padding: 5px;
+  
+  }
+  
+  .img-grid {
+    display: grid;
+    gap: 50px 50px;
+    grid-template-columns: auto;
+    border: 2px solid darkgray;
+    box-sizing: border-box;
+    border-radius: 1em/1em;
+    padding: 10px;
+  }
+
+    

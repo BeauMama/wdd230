@@ -3,7 +3,7 @@
 
 	main { 
 		display: grid;
-		grid-template-columns: 1fr 1fr 1fr 1fr;
+		grid-template-columns: auto auto auto auto;
 		column-gap: 10px; }
 
 /*add hamburger button*/
@@ -23,6 +23,35 @@ main section:nth-child(1) {
 	display: block;
 	flex: 1 1 100%;
 }
+.grid-container {
+	display: grid;
+	gap: 50px 50px;
+	grid-template-columns: auto ;
+	border: 2px solid darkgray;
+	box-sizing: border-box;
+	border-radius: 1em/1em;
+	
+  }
+  
+  .grid-item {
+	background-color:#13139a;
+	border: 1px solid rgba(0, 0, 0, 0.8);
+	font-size: 30px;
+	text-align: center;
+  }
+  
+	
+	.img-grid {
+	  display: grid;
+	  gap: 50px 50px;
+	  grid-template-columns: auto auto auto;
+	  border: 2px solid darkgray;
+	  box-sizing: border-box;
+	  border-radius: 1em/1em;
+	  padding: 10px;
+	}
+
+	
 
 }
 
