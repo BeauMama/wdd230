@@ -213,13 +213,13 @@ img {
     padding: 10px;
   }
 
-#link:active,
-#link:link,
-#link:visited{
+.link:active,
+.link:link,
+.link:visited{
 	color: white;
 	}  
 
-  #link:hover{
+  .link:hover{
     color: lightblue;
   } 
   
