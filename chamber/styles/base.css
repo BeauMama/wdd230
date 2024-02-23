@@ -206,6 +206,7 @@ img {
     display: grid;
     gap: 50px 50px;
     grid-template-columns: auto;
+    background-color: white;
     border: 2px solid darkgray;
     box-sizing: border-box;
     border-radius: 1em/1em;
