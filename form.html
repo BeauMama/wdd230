@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="icon" href="favicon.ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mandi M. Beauchaine" >
+    <meta name="description"   content="WDD 230 - Web Frontend Development course -Forms Page " >
+    <meta property="og:title" content="Utah State Flag">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f6/Flag_of_Utah.svg/255px-Flag_of_Utah.svg.png">
+    <meta property="og:url" content="https://beaumama.github.io/wdd230">
+    <title>Mandi Beauchaine - WDD 230 - Web Frontend Development - Forms Page</title>
+</head>
+<body>
+    <header>
+        <img src="images/profile-picture-mandi-beauchaine.webp" alt="Mandi Beauchaine profile picture">
+        <h1 contenteditable>Mandi M. Beauchaine</h1>
+    </header>
+      
+     <button id="menu" >.</button>
+      <nav class="navigation">
+            <a href="/#" class="active">Home</a>
+            <a href="lesson03/chamber-site-plan.html">Site Plan</a>
+            <a href="chamber/" target="_blank" >Chamber</a>
+            <a href="https://my.byui.edu/ICS/" target="_blank">BYU-Idaho</a>
+            <a href="https://www.churchofjesuschrist.org/study/scriptures/bofm/2-ne/25?lang=eng#p26" target="_blank">Scripture</a>
+               
+      </nav>
+    
+      <main>
+        
+        <form method="get" action ="record.html" class ="wf1">
+            <fieldset>
+                <legend>Applicant Information</legend>
+                <label>User Name* <input type="text" id="username" name="username" required></label>
+                <label>Password* <input type="text" id="password" name="password" pattern="[a-zA-Z0-9]{8,}" required 
+                    placeholder="Value must be at least eight (8) characters long and can only be alpha-numeric."></label>
+                <label>Re-enter Password* </label><input type="text" id="password2" name="password2" required>
+                <label for="email">Email:*</label>
+	                <input type="email" id="email" name="email" placeholder="Your byui email address." 
+                    title="Please put a valid byui.edu email address." pattern="[a-zA-Z0-9_.\-]+@byui.edu" required>
+                <label for="r">Page Rating</label>
+                    <div id="rangevalue">1</div>
+                    <input type="range" id="r" name="r" min="1" max="10" value="1" step="1" list="rangevalues">
+                    <datalist id="rangevalues">
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                    </datalist>
+            </fieldset>
+
+            <input type="submit" value ="Create User Account">
+            <input type="hidden" value="43aster">
+        </form>
+        
+      </main>
+
+
+      <footer>
+            
+        <p>
+            <var id="copyright"></var> <br>
+            Mandi Beauchaine <br>
+            Utah, United States <br>
+            <img src="images/utahstateflag.webp" alt="Utah State Flag">
+        </p>
+               
+        <p id="lastModified"></p>
+    </footer>
+    <p>
+   
+    <script src="scripts/getdates.js" defer></script>     
+    <script src="scripts/responsive_menu.js" defer></script>    
+    <script src="scripts/forms.js"></script>
+  
+</body>
+</html>

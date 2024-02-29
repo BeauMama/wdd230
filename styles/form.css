@@ -1,0 +1,299 @@
+
+header {
+    background: #74c4ec;
+    display: flex;
+    justify-content: center;
+   
+      }
+
+      
+nav{
+    background: black;
+    padding: 1em;
+ }
+
+.navigation a:link {
+      color:white;
+    }
+    
+.navigation a:visited{
+      color: gray;
+    }
+
+.navigation a:hover{
+      color:green;
+    }
+
+.navigation a:active{
+      color:#FF0000;
+    }
+
+
+nav ul{
+  display: inline;
+}
+
+html{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+   
+    
+}
+
+ul{
+    padding-inline-start: 0px;
+    list-style: none;
+}
+
+body{
+    font-family:'Courier New', Courier, monospace;
+    text-align: center;
+     list-style: none;
+        
+    
+   }
+
+   a:link
+   {
+     color:#0000FF;
+   }
+     a:visited
+   {
+     color:#800080;
+   }
+     a:hover
+   {
+     color:green;
+   }
+     a:active
+   {
+     color:#FF0000;
+   }
+
+main{
+    display: grid;
+    column-gap: 20px;
+	  row-gap: 20px;
+    padding: 1em;
+} 
+   
+img {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+}
+
+h1 {
+    color:#1a0404;
+    margin-top: 81px;
+    margin-left: 15px;
+    
+}
+
+h2{
+    text-decoration-line: underline;
+}
+
+h3{
+    background: #74c4ec;
+    text-align: center; 
+}
+
+section{
+    border: 2px solid blue;
+    box-sizing: border-box;
+    border-radius: 1em/1em;
+      
+}
+
+footer{
+    background: #74c4ec;
+    
+    
+}
+#lastModified {
+   color: #040f20;
+}
+
+#information {
+    text-align:center;
+    list-style: none;
+}
+
+#learningActivities
+{
+    text-align:left;
+    list-style: none;
+    padding-left: 10px;
+}
+
+/* small view navigation */
+#menu {
+	font-size: 1.5rem;
+	border: 1px solid rgba(0, 0, 0, 0.3);
+	padding: 0.25rem 0.75rem;
+	background-color: #eee;
+  position: absolute;
+	top: 1rem;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+  user-select: none;
+ }
+
+#menu.open::before {
+	content: "🔽";
+  
+}
+
+.navigation {
+	display: flex;
+	flex-direction: column;
+	list-style: none;
+	background-color: #333;
+	color: #fff;
+}
+
+.navigation a {
+	display: none;
+	padding: 1rem;
+	text-align: center;
+	text-decoration: none;
+	color: #fff;
+}
+
+.open a {
+	display: block;
+}
+
+.active::before { 
+	content: "🏠";  /* just a wayfinding symbol for the user */
+}
+
+
+
+/*----------- FORM STYLING --------------*/
+
+.wf1 fieldset{
+    margin: 2rem 0;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    padding: .5rem 2%;
+}
+
+.wf1 legend{
+    color: blue;
+    padding: 0 .5rem;
+}
+
+.wf1 label {
+    display: block;
+    padding-top: 1rem;
+    color: blue;
+    font-size: .9rem;
+    text-align: left;
+}
+
+.wf1 div{
+    padding-top: 1rem;
+    color: blue;
+    font-size: .9rem;
+}
+
+.wf1 input[type="text"],
+.wf1 input[type="password"],
+.wf1 input[type="password2"],
+.wf1 input[type="email"]{
+
+   background-color: lightgray;
+    display: block;
+    border: solid 1px gray;
+    border-radius: 6px;
+    padding: .75rem;
+    color: gray;
+    width: 100%;
+    max-width: 400px;
+    appearance: none;
+   
+    
+}
+
+
+.wf1 input[type="submit"] {
+    border: none;
+    background-image: linear-gradient(blue,#74c4ec);
+    color: white;
+    border-radius: 6px;
+    padding: .8rem;
+    width: 96%;
+    max-width: 400px;
+    margin: -1rem 2% 2rem 2%;
+    box-shadow: 1px 1px 4px #999;
+
+}
+
+.wf1 input:required{
+    border-left: solid 8px red;
+}
+
+.wf1 input:required:valid{
+    border-left: solid 8px green;
+}
+
+.wf1 ::placeholder{
+    white-space:pre-line; 
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+#r {
+	display: flex;
+    width: 390px;
+	margin: 0 0 0 25px;
+  
+}
+
+#rangevalue {
+	font-size: 2rem;
+	color: navy;
+}
+
+#rangevalues {
+	display: flex;
+	margin: 0 0 0 20px;
+	width: 400px;
+}
+
+#rangevalues option {
+	flex: 1 1 auto;
+}
+
+input:focus,
+textarea:focus {
+	outline: none;
+}
+
+input::placeholder {
+	font-size: 13px;
+}
+
+#formmessage {
+	visibility: none;
+	margin: 10px;
+	padding: 0.5rem;
+	color: red;
+}
+
+input:focus,
+textarea:focus {
+	outline: none;
+}
+
+
+
