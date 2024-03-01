@@ -1,3 +1,9 @@
+/* Prevent adjustments of font size after orientation changes in IE on Windows Phone and in iOS.  */
+html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
+
+/*----------- apply a natural box layout model to all elements --------------*/
+* { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
+
 
 header {
     background: #74c4ec;
@@ -37,7 +43,7 @@ html{
     display: flex;
     justify-content: center;
     align-content: center;
-    align-items: center;
+   
    
     
 }
@@ -50,34 +56,8 @@ ul{
 body{
     font-family:'Courier New', Courier, monospace;
     text-align: center;
-     list-style: none;
-        
-    
-   }
 
-   a:link
-   {
-     color:#0000FF;
-   }
-     a:visited
-   {
-     color:#800080;
-   }
-     a:hover
-   {
-     color:green;
-   }
-     a:active
-   {
-     color:#FF0000;
-   }
-
-main{
-    display: grid;
-    column-gap: 20px;
-	  row-gap: 20px;
-    padding: 1em;
-} 
+}
    
 img {
   border: 1px solid #ddd;
@@ -102,12 +82,6 @@ h3{
     text-align: center; 
 }
 
-section{
-    border: 2px solid blue;
-    box-sizing: border-box;
-    border-radius: 1em/1em;
-      
-}
 
 footer{
     background: #74c4ec;
@@ -118,17 +92,6 @@ footer{
    color: #040f20;
 }
 
-#information {
-    text-align:center;
-    list-style: none;
-}
-
-#learningActivities
-{
-    text-align:left;
-    list-style: none;
-    padding-left: 10px;
-}
 
 /* small view navigation */
 #menu {
@@ -136,7 +99,7 @@ footer{
 	border: 1px solid rgba(0, 0, 0, 0.3);
 	padding: 0.25rem 0.75rem;
 	background-color: #eee;
-  position: absolute;
+    position: absolute;
 	top: 1rem;
 	right: 1rem;
 }
@@ -179,11 +142,16 @@ footer{
 
 /*----------- FORM STYLING --------------*/
 
+.wf1{
+ display: block;
+}
+
 .wf1 fieldset{
     margin: 2rem 0;
     border: 1px solid #ddd;
     border-radius: 6px;
     padding: .5rem 2%;
+    
 }
 
 .wf1 legend{
@@ -206,8 +174,6 @@ footer{
 }
 
 .wf1 input[type="text"],
-.wf1 input[type="password"],
-.wf1 input[type="password2"],
 .wf1 input[type="email"]{
 
    background-color: lightgray;
@@ -254,7 +220,8 @@ footer{
 
 #r {
 	display: flex;
-    width: 390px;
+    width: 96%;
+    max-width: 400px;
 	margin: 0 0 0 25px;
   
 }
@@ -267,33 +234,22 @@ footer{
 #rangevalues {
 	display: flex;
 	margin: 0 0 0 20px;
-	width: 400px;
+    width: 96%;
+    max-width: 400px;
 }
 
 #rangevalues option {
 	flex: 1 1 auto;
 }
 
-input:focus,
-textarea:focus {
-	outline: none;
-}
-
-input::placeholder {
-	font-size: 13px;
-}
 
 #formmessage {
-	visibility: none;
+	display: block;
+    justify-content: center;
+    visibility: none;
 	margin: 10px;
 	padding: 0.5rem;
 	color: red;
 }
-
-input:focus,
-textarea:focus {
-	outline: none;
-}
-
 
 

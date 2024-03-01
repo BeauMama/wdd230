@@ -1,31 +1,8 @@
 @media (min-width: 640px) {
-	nav ul {
-		display: flex;
-	}
-	nav ul li {
-		flex: 1 1 100%;
-	}
-
-
-    
-main {
-    display:grid;
-    grid-template-columns: auto auto;
-	column-gap: 20px;
-	row-gap: 20px;
-	
- }
-
- h2, .hero  {
-	grid-column: span 2;
-}
-
-
-
-iframe  {
-	grid-column: span 2;
-}
-
+	header, nav, main, footer {
+        max-width: 64rem;
+        margin:auto;
+    }
 
 /*add hamburger button*/
 #menu {
