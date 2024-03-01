@@ -55,6 +55,12 @@ main section:nth-child(1) {
 		box-shadow: 0 0 25px #13139a;
 		border-radius: 50px 50px;
 	}
-
+	.join_page {
+		display: grid;
+		grid-template-columns: auto auto;
+		column-gap: 10px;
+		
+	  }
+	
 }
 
