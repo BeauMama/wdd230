@@ -54,8 +54,8 @@
             <label>Last Name* <input type="text" id="lname" name="lname" required ></label>
             <label>Title or Position* <input type="text" id="title" name="title" pattern="^[a-zA-Z\- ]{7,}$" 
                 title="Please enter at least seven alpha characters, hyphens, or spaces." required ></label>
-            <label>Email* <input type="email" id="email" name="email" placeholder="someone@gmail.com" required ></label>
-            <label>Mobile Phone* <input type="tel" id="mobilephone" name="phone" placeholder="1235551234" required ></label>
+            <label>Email* <input type="email" id="email" name="email" placeholder="someone@gmail.com" autocomplete="email" required ></label>
+            <label>Mobile Phone* <input type="tel" id="mobilephone" name="phone" placeholder="1235551234" autocomplete="tel" ></label>
             <label>Business/Organization's Name* <input type="text" id="busname" name="busname" required ></label>
             <label>Business/Organization's description* <input type="text" id="busdesc" name="busdesc" required ></label>
         </fieldset>
@@ -63,9 +63,9 @@
         <fieldset>
             <legend>Membership Level</legend>
             <label><input type="radio" id = "membership" name="membership" value="nonprofit">Non Profit Organization</label>
-            <label><input type="radio" id = "membership" name ="membership" value="bronze">Bronze Membership</label>
-            <label><input type="radio" id = "membership" name ="membership" value="silver">Silver Membership</label>
-            <label><input type="radio" id = "membership" name ="membership" value="gold">Gold Membership</label>
+            <label><input type="radio" id = "membership2" name ="membership2" value="bronze">Bronze Membership</label>
+            <label><input type="radio" id = "membership3" name ="membership3" value="silver">Silver Membership</label>
+            <label><input type="radio" id = "membership4" name ="membership4" value="gold">Gold Membership</label>
         </fieldset>    
 
         <input type="hidden" name = "loaddate" id="loaddate">
@@ -75,31 +75,46 @@
     </div>
 
         <div class="grid-container">
-            <div class="grid-item">
+            <div class="grid-item2">
                 <h4>Gold Membership</h4>  
-                <p>
-                    
-                </p>
+                <p> <strong>Costs: </strong>$1,000 per year<br></p>
+                <ul>
+                    <li>Featured listing in the chamber's online directory with priority placement.</li>
+                    <li>Four complimentary tickets to chamber events per year.</li>
+                    <li>Priority sponsorship opportunities for chamber events.</li>
+                    <li>Access to VIP networking events with key stakeholders and community leaders.</li>
+                    <li>Quarterly feature in chamber newsletter.</li>
+                </ul>
             </div>
-            <div class="grid-item">
+            <div class="grid-item2">
                 <h4>Silver Membership</h4>  
-                <p>
-                    
-                </p>
+                <p> <strong>Costs: </strong>$500 per year<br></p>
+                <ul>
+                    <li>Enhanced listing in the chamber's online directory with logo and website link.</li>
+                    <li>Priority placement at chamber events.</li>
+                    <li>Two complimentary tickets to one chamber event per year.</li>
+                    <li>Access to exclusive member-only workshops and seminars.</li>
+                </ul>
                                 
             </div>
-            <div class="grid-item">
+            <div class="grid-item2">
                 <h4>Bronze Membership</h4>  
-                <p>
-                   
-                </p>
+                <p> <strong>Costs: </strong>$250 per year<br></p>
+                <ul>
+                    <li>Basic listing in the chamber's online directory.</li>
+                    <li>Access to chamber events at standard member rates.</li>
+                    <li>Monthly newsletter subscription.</li>
+                </ul>
                                 
             </div>
-            <div class="grid-item">
+            <div class="grid-item2">
                 <h4>Non Profit Organization</h4>  
-                <p>
-                   
-                </p>
+                <p> <strong>Costs: </strong> Free<br></p>
+                <ul>
+                    <li>Basic listing in the chamber's online directory as a nonprofit member.</li>
+                    <li>Access to chamber events at discounted nonprofit rates.</li>
+                    <li>Access to educational resources and workshops tailored for nonprofits.</li>
+                </ul>
                                 
             </div>
     </main>

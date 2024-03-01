@@ -265,8 +265,6 @@ img {
 .wf1 input[type="text"],
 .wf1 input[type="tel"],
 .wf1 input[type="email"],
-.wf1 input[type="url"],
-.wf1 input[type="date"],
 .wf1 select,
 .wf1 input[type="number"]{
   background-color: lightgray;
@@ -305,4 +303,15 @@ img {
 
 .wf1 input:required:valid{
   border-bottom: solid 5px green;
+}
+
+.grid-item2 {
+  background-color: lightgray;
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 6px;
+  padding: 10px;
+  text-align: center;
+  color:#13139a;
+  
+  
 }
