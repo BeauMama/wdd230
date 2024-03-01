@@ -175,6 +175,7 @@ footer{
     padding-top: 1rem;
     color: var(--main-blue);
     font-size: .9rem;
+   
 }
 
 .wf1 input[type="text"],
@@ -224,8 +225,8 @@ footer{
 
 #r {
 	display: flex;
-    width: 96%;
-    max-width: 400px;
+    width: 100%;
+    max-width: 380px;
 	margin: 0 0 0 25px;
   
 }
@@ -233,12 +234,14 @@ footer{
 #rangevalue {
 	font-size: 2rem;
 	color: var(--main-blue);
+    text-align: left ;
+    margin-left: 50px;
 }
 
 #rangevalues {
 	display: flex;
 	margin: 0 0 0 20px;
-    width: 96%;
+    width: 100%;
     max-width: 400px;
 }
 
@@ -250,7 +253,7 @@ footer{
 #formmessage {
 	display: block;
     justify-content: center;
-    visibility: none;
+    
 	margin: 10px;
 	padding: 0.5rem;
 	color: red;
