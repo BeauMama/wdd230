@@ -4,9 +4,13 @@ html {-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;}
 /*----------- apply a natural box layout model to all elements --------------*/
 * { -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box; }
 
+:root{
+    --main-bg-color: #74c4ec;
+    --main-blue: blue;  
+}
 
 header {
-    background: #74c4ec;
+    background: var(--main-bg-color);
     display: flex;
     justify-content: center;
    
@@ -78,13 +82,13 @@ h2{
 }
 
 h3{
-    background: #74c4ec;
+    background:var(--main-bg-color);
     text-align: center; 
 }
 
 
 footer{
-    background: #74c4ec;
+    background: var(--main-bg-color);
     
     
 }
@@ -155,27 +159,27 @@ footer{
 }
 
 .wf1 legend{
-    color: blue;
+    color: var(--main-blue);
     padding: 0 .5rem;
 }
 
 .wf1 label {
     display: block;
     padding-top: 1rem;
-    color: blue;
+    color: var(--main-blue);
     font-size: .9rem;
     text-align: left;
 }
 
 .wf1 div{
     padding-top: 1rem;
-    color: blue;
+    color: var(--main-blue);
     font-size: .9rem;
 }
 
 .wf1 input[type="text"],
-.wf1 input[type="email"]{
-
+.wf1 input[type="email"],
+.wf1 input[type="password"] {
    background-color: lightgray;
     display: block;
     border: solid 1px gray;
@@ -192,7 +196,7 @@ footer{
 
 .wf1 input[type="submit"] {
     border: none;
-    background-image: linear-gradient(blue,#74c4ec);
+    background-image: linear-gradient(var(--main-blue),var(--main-bg-color));
     color: white;
     border-radius: 6px;
     padding: .8rem;
@@ -228,7 +232,7 @@ footer{
 
 #rangevalue {
 	font-size: 2rem;
-	color: navy;
+	color: var(--main-blue);
 }
 
 #rangevalues {
