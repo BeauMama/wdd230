@@ -6,17 +6,17 @@
     "familyMembers": [
         {
             "name": "Samuel",
-            "gender": "M",
+            "gender": "Male",
             "birthDate": "1981-03-30"
         },
         {
             "name": "Mandi",
-            "gender": "F",
+            "gender": "Female",
             "birthDate": "1981-01-13"
         },
         {
             "name": "Samantha",
-            "gender": "F",
+            "gender": "Female",
             "birthDate": "2006-10-08"
         }
     ]
