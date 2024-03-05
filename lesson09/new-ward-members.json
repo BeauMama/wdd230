@@ -1,0 +1,24 @@
+{"wardInformation":{
+    "familyName": "Beauchaine",
+    "dateMovedIn": "2024-01-01",
+    "numberofrecords": 3,
+    "videdbyBishop": true,
+    "familyMembers": [
+        {
+            "name": "Samuel",
+            "gender": "M",
+            "birthDate": "1981-03-30"
+        },
+        {
+            "name": "Mandi",
+            "gender": "F",
+            "birthDate": "1981-01-13"
+        },
+        {
+            "name": "Samantha",
+            "gender": "F",
+            "birthDate": "2006-10-08"
+        }
+    ]
+}
+}
