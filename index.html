@@ -47,23 +47,19 @@
 
 
             <h2 contenteditable>WDD 230: Web Frontend Development</h2>
-            <section class = "card">
+            <div id = cards>
+            <section id = "card">
                 <h3 contenteditable>Learning Activities</h3>
                 <ul id="learningActivities">
-                    <li>01:<a href="lesson01/holygrail.html">Holy Land</a> </li>
-                    <li>02:<a href="https://beaumama.github.io/wdd230/lesson01/media-query.html">Media Query</a>|<a href="https://beaumama.github.io/wdd230/lesson02/design-principles.html">Design Principles Document</a></li>
-                    <li>03:<a href="lesson03/images/css_combinators.png">CSS Combinators</a>|<a href="lesson03/images/css_pseudo_elements.png">CSS Pseduo-elements</a>|<a href="https://codepen.io/MandiBeau/pen/KKEvbGr" target="_blank">Responsive Navigation</a> </li>
-                    <li>04:<a href="https://codepen.io/MandiBeau/pen/YzgeeNP" target="_blank">CSS Pseduo-classes</a></li>
-                    <li>05:<a href="https://beaumama.github.io/wdd230/lesson05/bom.html" target="_blank">BOM Application</a></li>
-                    <li>06:<a href="lesson03/images/landscape.webp">WebP</a>|<a href="https://beaumama.github.io/wdd230/lesson06/responsive-images.html" target="_blank">BOM Application</a> </li> 
-                    <li>07:<a href="lesson07/lazyload.html" target="_blank">Lazy Loading</a>|<a href="lesson07/bom.html" target="_blank">BOM Web Storage API - localStorage</a></li>
-                    <li>08:<a href="lesson08/tablebuild.html" target="_blank">HTML Tables</a>|<a href="lesson08/Form-start/index.html" target="_blank">HTML Forms</a>|<a href="form.html">Form</a></li>
-                    <li>09:<a href="lesson09/new-ward-members.json">JSON</a>|<a href="lesson09/prophets.html">Fetch API</a></li>
-                    <li>10:</li>                    
+                    <li id="week">
+                        <a id = "url" ></a> 
+                    </li>
+                                         
                 </ul>
             </section >
-
-            <section class = "card">
+        </div>
+           
+            <section class = "info">
                 <h3 contenteditable>Information</h3>
                 <ul id="information">
                     <li><h4 id="location">Location</h4></li>
@@ -96,5 +92,6 @@
         <script src="scripts/responsive_menu.js" defer></script>    
         <script src="scripts/weather.js"></script>
         <script src="scripts/pagevisits.js"></script>
+        <script src="scripts/links.js"></script>
 </body>
 </html>
