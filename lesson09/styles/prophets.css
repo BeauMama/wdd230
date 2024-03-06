@@ -1,4 +1,4 @@
-header {
+header, footer {
     color: darkblue;
     display: flex;
     justify-content: center;
@@ -23,4 +23,11 @@ section {
 
   h2{
     color: darkblue;
+    margin: 0%;
+   
   }
+
+h4,h5{
+    margin: 0%
+}
+  

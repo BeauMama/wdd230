@@ -15,11 +15,15 @@ async function getProphetData() {
        
         
         let card = document.createElement('section');
-        let fullname = document.createElement('h2')
-        let portrait = document.createElement('img')
+        let fullname = document.createElement('h2');
+        let portrait = document.createElement('img');
+        let birthdate = document.createElement('h4');
+        let placeofbirth = document.createElement('h5');
       
          
         fullname.textContent = `${prophet.name} ${prophet.lastname}`;
+        birthdate.textContent = `Date of Birth: ${prophet.birthdate}`;
+        placeofbirth.textContent = `Place of Birth: ${prophet.birthplace}`;
 
         portrait.setAttribute('src', prophet.imageurl);
         portrait.setAttribute('alt', 'Portrait of ${prophet.name} ${prophet.lastname}');
@@ -28,8 +32,9 @@ async function getProphetData() {
         portrait.setAttribute('height','440')
 
         card.appendChild(fullname);
+        card.appendChild(birthdate);
+        card.appendChild(placeofbirth);
         card.appendChild(portrait);
-
         cards.appendChild(card);
 
     });
