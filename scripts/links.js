@@ -7,27 +7,28 @@ const linksURL = "https://beaumama.github.io/wdd230/data/links.json";
 async function getLinks() {
     const response = await fetch("https://beaumama.github.io/wdd230/data/links.json");
     const data = await response.json();
-    displayLinks(data.links); 
+    displayLinks(data.lessons); 
    
   }
   
   getLinks();
 
   const displayLinks = (weeks) => {
-    weeks.forEach((week) => {
+    weeks.forEach((lesson) => {
        
-        let card = document.createElement('section');
-        let lesson = document.createElement('li');
-        let url = document.createElement('a');
-        let title = document.createElement('p');      
-        
-        lesson.textContent = `Week ${week.lesson} :`;
-        url.textContent = ` href = ${week.links.url}`;
-        title.textContent = `${week.links.title}`;
+        let card = document.createElement('div');
+        let week = document.createElement('a');
+        let link = document.createElement('a') 
 
-        card.appendChild(week);
-        card.appendChild(url);
-        card.appendChild(title);
+        week.textContent = `Week ${lesson.lesson}: ` ;
+        link.textContent = `${lesson.links[0].title} `;
+        
+        link.setAttribute('href', `${lesson.links[0].url}`)
+        link.setAttribute('target', `_blank`)
+       
+
+        card.appendChild(week)
+        card.appendChild(link);       
         cards.appendChild(card);
 
     });
