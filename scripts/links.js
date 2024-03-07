@@ -59,11 +59,8 @@ async function getLinks() {
             link.setAttribute('target', `_blank`)
         
             list.appendChild(link);
+            list.appendChild(document.createTextNode('|'));
                    
-            if (index < weeks.length - 1) {
-                list.appendChild(document.createTextNode('|'));
-            }
-
         });
                   
                    
