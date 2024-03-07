@@ -57,10 +57,15 @@ async function getLinks() {
             link.textContent = `${week.title}`;
             link.setAttribute('href', `${week.url}`)
             link.setAttribute('target', `_blank`)
-        
+
             list.appendChild(link);
-            list.appendChild(document.createTextNode('|'));
-                   
+        
+            if (index < lesson.links.length -1 && list.childElementCount > 0) {
+                var space = document.createTextNode('|');
+                list.appendChild(space);
+            }
+            
+                          
         });
                   
                    
