@@ -316,3 +316,21 @@ img {
   
   
 }
+
+#cards{
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+}
+
+#members
+{
+  display: block;
+  text-align: left;
+  border: 2px solid blue;
+  box-sizing: border-box;
+  border-radius: 1em/1em;
+  color: black;
+  text-align: center;
+  background-color: #55ACEE;
+    
+}

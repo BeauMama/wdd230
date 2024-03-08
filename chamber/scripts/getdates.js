@@ -12,4 +12,4 @@ function setLoadTime() {
     }
 }
 
-document.getElementById("#join_page").addEventListener('submit',setLoadTime);
+/*document.getElementById("#join_page").addEventListener('submit',setLoadTime);*/
