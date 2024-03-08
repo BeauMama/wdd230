@@ -67,14 +67,14 @@
           
         },
         {
-            "name": "07",
-            "address": "",
-            "phonenumber": "",
-            "url": "",
+            "name": "Allied Business Solutions",
+            "address": "3752 W 2270 S Ste B, West Valley City, UT 84120",
+            "phonenumber": "801-210-3081",
+            "url": "https://allied.tech/",
             "img": " ",
             "membershiplevel": "",
-            "contactname": "",
-            "contactemail": ""
+            "contactname": "Juan Martinez",
+            "contactemail": "juan.martinex@allied.tech"
           
         }
     ]
