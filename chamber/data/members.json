@@ -1,0 +1,81 @@
+{
+    "companies": [
+        {
+            "name": "FranlinCovey",
+            "address": "2200 W Parkway Blvd, Salt Lake City, UT 84119",
+            "phonenumber": "801-817-6640",
+            "url": "https://www.franklincovey.com/",
+            "img": " ",
+            "membershiplevel": "",
+            "contactname": "Debra Lund",
+            "contactemail": "debra.lund@franklincovey.com"
+          
+        },
+        {
+            "name": "02",
+            "address": "",
+            "phonenumber": "",
+            "url": "",
+            "img": " ",
+            "membershiplevel": "",
+            "contactname": "",
+            "contactemail": ""
+          
+        },
+        {
+            "name": "03",
+            "address": "",
+            "phonenumber": "",
+            "url": "",
+            "img": " ",
+            "membershiplevel": "",
+            "contactname": "",
+            "contactemail": ""
+          
+        },
+        {
+            "name": "04",
+            "address": "",
+            "phonenumber": "",
+            "url": "",
+            "img": " ",
+            "membershiplevel": "",
+            "contactname": "",
+            "contactemail": ""
+          
+        },
+        {
+            "name": "05",
+            "address": "",
+            "phonenumber": "",
+            "url": "",
+            "img": " ",
+            "membershiplevel": "",
+            "contactname": "",
+            "contactemail": ""
+          
+        },
+        {
+            "name": "06",
+            "address": "",
+            "phonenumber": "",
+            "url": "",
+            "img": " ",
+            "membershiplevel": "",
+            "contactname": "",
+            "contactemail": ""
+          
+        },
+        {
+            "name": "07",
+            "address": "",
+            "phonenumber": "",
+            "url": "",
+            "img": " ",
+            "membershiplevel": "",
+            "contactname": "",
+            "contactemail": ""
+          
+        }
+    ]
+    }

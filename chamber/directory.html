@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+    <link rel="stylesheet" href="styles/base.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/larger.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" href="favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;600&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Mandi M. Beauchaine" >
+    <meta name="description"   content="WDD 230 - Directory Page for Mandi Beauchaine." >
+    <meta property="og:title" content="WVC">
+    <meta property="og:type" content="website">
+    <meta property="og:image" content="https://beaumama.github.io/wdd230/chamber/images/wvc.png">
+    <meta property="og:url" content="https://beaumama.github.io/wdd230/chamber">
+    <title>Project - The Directory Page - Mandi Beauchaine</title>
+</head>
+<body>
+    
+    <header>
+        <h1 contenteditable>West Valley City<Br> Chamber of Commerce - Directory</h1>
+        <a href="#" class="fa fa-facebook"></a>
+        <a href="#" class="fa fa-twitter"></a>
+        <a href="#" class="fa fa-youtube"></a>
+        <a href="#" class="fa fa-instagram"></a>
+    </header>
+    
+    
+    <button id="menu"></button>
+
+    <button id="darkmode" onclick="darkMode()">Darkmode</button>
+    
+
+    <nav class="navigation">
+        <a href="#" class ='home' >Home</a>
+        <a href="discover.html" class = 'discover' target="_blank" >Discover</a>
+        <a href="directory/" class = 'directory' target="_blank" >Directory</a>
+        <a href="join.html" class = 'join' target="_blank" >Join</a>
+                  
+  </nav>
+  
+  <main>
+    <div id="cards"></div>
+
+    <section id ="card" ></section>
+    <ul id = "data">
+
+    </ul>
+      
+    </main>
+
+    <footer>
+         <p>
+            West Valley City Chamber of Commerce<br>
+            Address: 3450 South 4000 West, Ste 240 West Valley City, UT 84120 |
+            Phone: 801-977-8755 
+        </p>
+        <p>
+            <var id="copyright"></var>  West Valey City Chamber of Commerce|
+             Mandi Beauchaine |
+            Project for WDD 230 |
+            <var id="lastModified"></var>               
+        </p>
+    </footer>
+    <script src="scripts/getdates.js" defer></script> 
+    <script src="scripts/responsive_menu.js" defer></script>   
+    <script src="scripts/darkmode.js" defer></script> 
+    <script src ="scripts/getdates.js" defer ></script>
+</body>
+</html>
