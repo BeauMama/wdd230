@@ -17,29 +17,33 @@ async function getProphetData() {
         let card = document.createElement('section');
         let name = document.createElement('h2');
         let img = document.createElement('img');
-        let phonenumber = document.createElement('h4');
-        let addrees = document.createElement('h4');
+        let phonenumber = document.createElement('h5');
+        let address = document.createElement('h4');
         let url = document.createElement('a');
       
          
         name.textContent = ` ${company.name}`;
         phonenumber.textContent = `${company.phonenumber}`;
-        addrees.textContent = `${company.addrees}`
+        address.textContent = `${company.address}`
+        
         url.textContent = `${company.url}`;
+        url.setAttribute('href', `${company.url}`);
+        url.setAttribute('target', `_blank`);
 
         img.setAttribute('src', company.img);
         img.setAttribute('alt', 'logo of ${company.name}');
         img.setAttribute('loading', 'lazy');
-        img.setAttribute('width', '340')
-        img.setAttribute('height','440')
+                 
 
+        card.appendChild(img);
         card.appendChild(name);
+        card.appendChild(address);
         card.appendChild(phonenumber);
         card.appendChild(url);
-        card.appendChild(img);
         cards.appendChild(card);
 
     });
   }
 
 
+  

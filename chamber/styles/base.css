@@ -319,4 +319,21 @@ img {
 
 #directory{
   display:block;
+  
+ 
+}
+
+  
+#directory section{
+  background-color:rgb(121, 121, 133);
+  color: white;
+  padding: 5px;
+  row-gap: 20px; 
+
+}
+
+#directory img{
+  width: 150;
+  height: 100px;
+
 }
