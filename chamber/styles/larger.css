@@ -61,6 +61,8 @@ main section:nth-child(1) {
 		column-gap: 10px;
 		
 	  }
-	
+	  #cards{
+		display:block;
+	  }
 }
 

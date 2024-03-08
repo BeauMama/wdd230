@@ -5,7 +5,7 @@
             "address": "2200 W Parkway Blvd, Salt Lake City, UT 84119",
             "phonenumber": "801-817-6640",
             "url": "https://www.franklincovey.com/",
-            "img": "chamber/images/FC_logo.webp",
+            "img": "https://beaumama.github.io/wdd230/chamber/images/FC_logo.webp",
             "membershiplevel": "",
             "contactname": "Debra Lund",
             "contactemail": "debra.lund@franklincovey.com"
@@ -16,7 +16,7 @@
             "address": "4785 West 3500 South, West Valley City, UT 84119",
             "phonenumber": "801-969-1491",
             "url": "https://centralglassutah.com/",
-            "img": "chamber/images/central_Class_Company.webp",
+            "img": "https://beaumama.github.io/wdd230/chamber/images/central_Class_Company.webp",
             "membershiplevel": "",
             "contactname": "Tim Balley",
             "contactemail": "tim.balley@centeralglassutah.com"
@@ -27,7 +27,7 @@
             "address": "2300 S 2300 W, Salt Lake City, UT 84119",
             "phonenumber": "801-649-2500",
             "url": "https://www.3-form.com/",
-            "img": "chamber/images/3form.webp",
+            "img": "https://beaumama.github.io/wdd230/chamber/images/3form.webp",
             "membershiplevel": "",
             "contactname": "Sam Pickles",
             "contactemail": "info@3-form.com"
@@ -38,7 +38,7 @@
             "address": "2189 South 3200 West, West Valley City, UT 84119",
             "phonenumber": "801-972-2900",
             "url": "https://www.alphagraphics.com/us-utah-west-valley-city-us034",
-            "img": "chamber/images/alphagraphics.webp",
+            "img": "https://beaumama.github.io/wdd230/chamber/images/alphagraphics.webp",
             "membershiplevel": "",
             "contactname": "Laurieann Thorpe",
             "contactemail": "laurieann@alphagraphics.com"
@@ -49,7 +49,7 @@
             "address": "3600 S Constitution Blvd, West Valley City, UT 84119",
             "phonenumber": "801-963-3345",
             "url": "https://www.whywestvalley.com/",
-            "img": "chamber/images/wvcredecopmentagency.webp",
+            "img": "https://beaumama.github.io/wdd230/chamber/images/wvcredecopmentagency.webp",
             "membershiplevel": "",
             "contactname": "Jonathan Springmeyer",
             "contactemail": "Jonathan.Springmeyer@wvc-ut.gov"
@@ -60,7 +60,7 @@
             "address": "3341 S 4000 W, West Valley City, UT 84120",
             "phonenumber": "801-657-5373",
             "url": "https://www.mydbsolutions.com/",
-            "img": "chamber/images/myDBSoutions.webp ",
+            "img": "https://beaumama.github.io/wdd230/chamber/images/myDBSoutions.webp ",
             "membershiplevel": "",
             "contactname": "Bob Smith",
             "contactemail": "bobsmith@mysolutions.com"
@@ -71,7 +71,7 @@
             "address": "3752 W 2270 S Ste B, West Valley City, UT 84120",
             "phonenumber": "801-210-3081",
             "url": "https://allied.tech/",
-            "img": " ",
+            "img": "https://beaumama.github.io/wdd230/chamber/images/alliedbusiness.webp",
             "membershiplevel": "",
             "contactname": "Juan Martinez",
             "contactemail": "juan.martinex@allied.tech"
