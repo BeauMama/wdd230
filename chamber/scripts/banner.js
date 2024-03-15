@@ -5,7 +5,7 @@ function bannerClose() {
 
 function displayDays(){
     var today = new Date().getDay();
-    if (today >= 1 && today <=6){
+    if (today >= 1 && today <=3){
         document.getElementById('banner').style.display = 'block';
     }
 }
