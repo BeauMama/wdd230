@@ -386,9 +386,10 @@ img {
 
 #weather-container {
   justify-content: center;
-    align-content: center;
-    align-items: center;
+  align-content: center;
+  align-items: center;
   display: flex;
+  column-gap: 20px;
   text-transform: capitalize;
   
 

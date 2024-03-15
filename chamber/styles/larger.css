@@ -19,7 +19,6 @@ main section:nth-child(2) {
 	grid-column: span 2;
 }
 main section:nth-child(5) {
-	display: inline-block;
 	grid-column: span 4;
 }
 
