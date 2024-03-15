@@ -44,7 +44,7 @@ async function displayWeather() {
               <p>Windchill: ${windChill} °F <p>
               <p>${desc}</p>
               <figure>
-              <img src= ${iconsrc} atl= "weather icon">
+              <img src= ${iconsrc} alt= "weather icon">
               <figcaption></figcaption>
           </figure>
             
