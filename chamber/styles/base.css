@@ -400,3 +400,26 @@ img {
   border: none;
   
 }
+
+.banner {
+  display: none;
+  background-color: #55ACEE;
+  color: #13139a;
+  padding: 10px;
+  text-align: center;
+  position: fixed;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  z-index: 9999;
+}
+
+.botton-close{
+  color: red;
+  cursor: pointer;
+  position: absolute;
+  top: 5px;
+  right: 10px
+
+}
