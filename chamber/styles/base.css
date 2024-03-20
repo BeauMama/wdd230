@@ -433,5 +433,10 @@ img {
 .fa-youtube,
 .fa-instagram
 {
-  font-size: 40px;
+    font-size: 35px;
+}
+
+.social li{
+  display: inline-block;
+  list-style: none;
 }
